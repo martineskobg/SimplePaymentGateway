@@ -11,7 +11,6 @@ to the Sanity checks Application:
 1. It should be executed from the terminal
 2. It should either include a configuration file or accept additional parameters like endpoint, transaction types
 
-
 **Task 2**\
 **Description**: It should ensure the API is working properly by performing different kind of requests
 1. send a valid payment transaction request and expect an approved response.
@@ -20,10 +19,8 @@ to the Sanity checks Application:
 4. send a void transaction pointing to a non-existent payment transaction and expect 422 etc
 5. send a void transaction pointing to an existent void transaction and expect 422 etc
 
-
 **Task 3**\
 **Description**:Create a proper structure of the project. It should be easily extendable with new methods, requests and etc.
-
 
 **Task 4**\
 **Description**:Cover the functionality of the sanity checks app with unit tests/specs using JUnit or similar testing framework
